@@ -1,0 +1,172 @@
+        header {
+            display: flex;
+            justify-content: center;
+        }
+
+        #Logo {
+            width: 200px;
+            border: #04aa6d3f solid;
+            border-radius: 5%;
+            margin-bottom: 5px;
+        }
+
+        h1 {
+            padding-top: 5px;
+        }
+
+        h3 {
+            color: #333;
+            background-color: #04aa6d3f;
+            margin-top: 0px;
+        }
+
+        .Cabecera {
+            padding: 6px;
+            color: #333;
+            background-color: #04aa6d3f;
+            margin-top: 0px;
+            text-align: center;
+            line-height: 1px;
+            animation: animate__fadeIn;
+        }
+
+        .a {
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+        }
+
+        .a:hover,
+        .a:focus {
+            background-size: 100% 2px;
+            color: #333;
+        }
+
+
+        #contenedor {
+            margin: 0 auto;
+            position: relative;
+            text-align: center;
+
+        }
+
+        .caja {
+            display: inline-block;
+            background: white;
+            box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+            margin: 20px;
+            overflow: hidden;
+            text-align: center;
+            box-sizing: border-box;
+            width: 250px;
+            height: 300px;
+            background: rgba(217, 217, 217, 0.58);
+            border: 1px solid white;
+            box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+            backdrop-filter: blur(6px);
+            border-radius: 17px;
+            cursor: pointer;
+            transition: all 0.5s;
+            font-weight: bolder;
+        }
+
+        .caja:hover {
+            border: 1px solid black;
+            transform: scale(1.05);
+        }
+
+        .caja:active {
+            transform: scale(0.95) rotateZ(1.7deg);
+        }
+
+        body {
+            padding: 5px;
+            background: #f8f8f8;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .enlace-ico {
+            width: 15px;
+        }
+
+        #logo {
+            width: 200px;
+        }
+
+        /* Estilos para el menú de navegación */
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 15px;
+            background-color: #04aa6d3f;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            font-size: 16px;
+            margin: 10px 15px;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #333;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid #04aa6d;
+            transition: background-color 0.3s, color 0.3s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a:hover {
+            background-color: #04aa6d;
+            color: white;
+        }
+
+        nav a:active {
+            transform: scale(0.95);
+        }
+
+        .icon {
+            width: 100%;
+            height: 150px;
+            /* Altura fija para todas las imágenes */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            /* Fondo blanco para que las imágenes se vean bien */
+        }
+
+        .icon img {
+            width: auto;
+            height: 100%;
+            /* La imagen se adapta a la altura del contenedor */
+            max-width: 100%;
+            /* Asegura que la imagen no se desborde */
+            object-fit: contain;
+            /* Mantiene la relación de aspecto de la imagen */
+        }
+
+        nav a.disabled {
+            color: #bbb;
+            pointer-events: none;
+            /* Desactiva la interacción con el enlace */
+            border: 1px solid #bbb;
+        }
+
+        /* Diseño para el footer */
+        footer {
+            background-color: #04aa6d3f;
+            color: #0b5a3df6;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer-content {
+            font-size: 14px;
+        }
